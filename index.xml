@@ -5,16 +5,16 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Dr. Tomás Aragón</title>
-<link>https://drtomasaragon.github.io/index.html</link>
-<atom:link href="https://drtomasaragon.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<title>Tomas Aragon</title>
+<link>https://taragonmd.github.io/index.html</link>
+<atom:link href="https://taragonmd.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Population Health Blog</description>
 <generator>quarto-1.3.433</generator>
 <lastBuildDate>Mon, 08 May 2023 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Lessons from the Covid Wars: An Investigative Report</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2023-05-08-lesson-from-the-covid-wars/index.html</link>
+  <link>https://taragonmd.github.io/posts/2023-05-08-lesson-from-the-covid-wars/index.html</link>
   <description><![CDATA[ 
 
 
@@ -228,7 +228,7 @@ Lesson Eight (Chapter 10: Strategy for a Global War)
 <p>This chapter covers the global collaboration, financing, manufacturing, and distribution of Covid vaccines (Figure&nbsp;1). In spite of some good intentions, vaccine equity efforts failed. The bottom line is that in a pandemic, US leadership in global vaccine equity and distribution would have ultimately benefited the US at home and abroad.</p>
 <div id="fig-p263" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2023-05-08-lesson-from-the-covid-wars/images/fig_p263_global_efort.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2023-05-08-lesson-from-the-covid-wars/images/fig_p263_global_efort.png" class="img-fluid figure-img" style="width:60.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;1: (p.&nbsp;263): This diagram shows the sectors involved in global collaboration on the development and distribution of therapeutics and vaccines. Governments at all levels, non-governmental organizations, philanthropies, and the private biopharmaceutical industry all have important roles to play. During the Covid pandemic, emergency organizations like the Access to COVID-19 Tools (ACT) Accelerator were created to try to help coordinate these different sectors.</figcaption>
 </figure>
 </div>
@@ -298,14 +298,14 @@ Lesson Ten (Chapter 11: America the Competent?)
   <category>Public health</category>
   <category>Preparedness</category>
   <category>SARS-CoV-2</category>
-  <guid>https://drtomasaragon.github.io/posts/2023-05-08-lesson-from-the-covid-wars/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2023-05-08-lesson-from-the-covid-wars/index.html</guid>
   <pubDate>Mon, 08 May 2023 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2023-05-08-lesson-from-the-covid-wars/images/book_cover_lessons_from_the_covid_war_1024x633.png" medium="image" type="image/png" height="89" width="144"/>
+  <media:content url="https://taragonmd.github.io/posts/2023-05-08-lesson-from-the-covid-wars/images/book_cover_lessons_from_the_covid_war_1024x633.png" medium="image" type="image/png" height="89" width="144"/>
 </item>
 <item>
   <title>Simple method to get criteria weights for decision making</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2023-03-31-criteria-weights-for-decisions/index.html</link>
+  <link>https://taragonmd.github.io/posts/2023-03-31-criteria-weights-for-decisions/index.html</link>
   <description><![CDATA[ 
 
 
@@ -2315,14 +2315,14 @@ font-style: inherit;">2</span>]))</span></code></pre></div>
   <category>Programming</category>
   <category>Decision intelligence</category>
   <category>Scientific computing</category>
-  <guid>https://drtomasaragon.github.io/posts/2023-03-31-criteria-weights-for-decisions/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2023-03-31-criteria-weights-for-decisions/index.html</guid>
   <pubDate>Fri, 31 Mar 2023 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2023-03-31-criteria-weights-for-decisions/images/book_cover_julia_for_data_analysis_1400x865.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2023-03-31-criteria-weights-for-decisions/images/book_cover_julia_for_data_analysis_1400x865.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Showing “respect for people”</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2023-03-24-respect-for-people/index.html</link>
+  <link>https://taragonmd.github.io/posts/2023-03-24-respect-for-people/index.html</link>
   <description><![CDATA[ 
 
 
@@ -2338,7 +2338,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is part of the series <em><a href="https://drtomasaragon.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
+<p>This is part of the series <em><a href="https://taragonmd.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
 <p>For background, here is an <a href="https://app.box.com/s/qdkfdg6up953gin7zwj7ojtcomvu3725">overview slide set</a> and <a href="https://app.box.com/s/dy09jpugvognm8x3oz56mt379o6vygbo">lean reporting templates</a>.</p>
 </div>
 </div>
@@ -2427,14 +2427,14 @@ From ChatGPT on 2023-03-23
   <category>Leadership</category>
   <category>Universal values</category>
   <category>Continuous improvement</category>
-  <guid>https://drtomasaragon.github.io/posts/2023-03-24-respect-for-people/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2023-03-24-respect-for-people/index.html</guid>
   <pubDate>Fri, 24 Mar 2023 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2023-03-24-respect-for-people/images/cultural-respect_1200x741.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2023-03-24-respect-for-people/images/cultural-respect_1200x741.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>California State of Public Health</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2023-03-19-california-state-of-public-health/index.html</link>
+  <link>https://taragonmd.github.io/posts/2023-03-19-california-state-of-public-health/index.html</link>
   <description><![CDATA[ 
 
 
@@ -2454,7 +2454,7 @@ Note
 <p>Huge thanks to Julie Nagasako, director of CDPH’s new Office of Policy and Planning, and her amazing data team!!!</p>
 </div>
 </div>
-<p>Good morning/afternoon, Chair, and members, I am Dr.&nbsp;Tomás Aragón, State Public Health Officer, and Director of the California Department of Public Health. It’s an honor to be here today to present on the State of Public Health in California.</p>
+<p>Good morning/afternoon, Chair, and members, I am Tomas Aragon, State Public Health Officer, and Director of the California Department of Public Health. It’s an honor to be here today to present on the State of Public Health in California.</p>
 <p>At CDPH, our mission is “to advance the health and well-being of California’s diverse people and communities” with the vision that all Californians enjoy “healthy communities with thriving families and individuals.”</p>
 <p>Health is not the absence of disease or injury—it’s a state of complete physical, mental, and social well-being. The Institute of Medicine defined public health as “what we, as a society, collectively do to assure the conditions in which people can be healthy.”</p>
 <p>Public health is OUR collective endeavor to protect, promote, and improve the health of our communities.</p>
@@ -2610,14 +2610,14 @@ Note
   <category>Budget hearing</category>
   <category>Health Officer</category>
   <category>CDPH Director</category>
-  <guid>https://drtomasaragon.github.io/posts/2023-03-19-california-state-of-public-health/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2023-03-19-california-state-of-public-health/index.html</guid>
   <pubDate>Sun, 19 Mar 2023 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2023-03-19-california-state-of-public-health/images/state_of_public_health_assembly_hearing_1216x760.png" medium="image" type="image/png" height="90" width="144"/>
+  <media:content url="https://taragonmd.github.io/posts/2023-03-19-california-state-of-public-health/images/state_of_public_health_assembly_hearing_1216x760.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 <item>
   <title>Julia for Data Analysis</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2023-02-20-julia-for-data-analysis/index.html</link>
+  <link>https://taragonmd.github.io/posts/2023-02-20-julia-for-data-analysis/index.html</link>
   <description><![CDATA[ 
 
 
@@ -3954,7 +3954,7 @@ font-style: inherit;">4</span>)</span></code></pre></div>
 </ol>
 <div id="fig-split" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2023-02-20-julia-for-data-analysis/images/phds_split_apply_combine_workflow.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2023-02-20-julia-for-data-analysis/images/phds_split_apply_combine_workflow.png" class="img-fluid figure-img" style="width:90.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;1: The split-apply-combine is a common workflow in data science.</figcaption>
 </figure>
 </div>
@@ -4730,14 +4730,14 @@ font-style: inherit;">:</span>]</span></code></pre></div>
   <category>Programming</category>
   <category>Epidemiology</category>
   <category>Scientific computing</category>
-  <guid>https://drtomasaragon.github.io/posts/2023-02-20-julia-for-data-analysis/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2023-02-20-julia-for-data-analysis/index.html</guid>
   <pubDate>Mon, 20 Feb 2023 08:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2023-02-20-julia-for-data-analysis/images/book_cover_julia_for_data_analysis_1400x865.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2023-02-20-julia-for-data-analysis/images/book_cover_julia_for_data_analysis_1400x865.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>My journey from R to Julia</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2023-01-14-my-journey-from-r-to-julia/index.html</link>
+  <link>https://taragonmd.github.io/posts/2023-01-14-my-journey-from-r-to-julia/index.html</link>
   <description><![CDATA[ 
 
 
@@ -5252,14 +5252,14 @@ font-style: inherit;">1</span>])</span></code></pre></div>
   <category>Programming</category>
   <category>Epidemiology</category>
   <category>Scientific computing</category>
-  <guid>https://drtomasaragon.github.io/posts/2023-01-14-my-journey-from-r-to-julia/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2023-01-14-my-journey-from-r-to-julia/index.html</guid>
   <pubDate>Sat, 14 Jan 2023 08:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2023-01-14-my-journey-from-r-to-julia/images/julia-programming-language-mit-00.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://taragonmd.github.io/posts/2023-01-14-my-journey-from-r-to-julia/images/julia-programming-language-mit-00.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Becoming the best at getting better</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/index.html</link>
+  <link>https://taragonmd.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/index.html</link>
   <description><![CDATA[ 
 
 
@@ -5275,7 +5275,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is part of the series <em><a href="https://drtomasaragon.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
+<p>This is part of the series <em><a href="https://taragonmd.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
 <p>For background, here is an <a href="https://app.box.com/s/qdkfdg6up953gin7zwj7ojtcomvu3725">overview slide set</a> and <a href="https://app.box.com/s/dy09jpugvognm8x3oz56mt379o6vygbo">lean reporting templates</a>.</p>
 </div>
 </div>
@@ -5334,7 +5334,7 @@ Important
 </div>
 <div id="fig-okrs" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_coursera_what-are-okrs-okr-definition-with-diagram_orig_cropped.jpg" class="img-fluid figure-img" style="width:95.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_coursera_what-are-okrs-okr-definition-with-diagram_orig_cropped.jpg" class="img-fluid figure-img" style="width:95.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;1: OKRs or Objectives and Key Results is a best practice for setting, tracking, and achieving audacious goals. OKRs was popularized by John Doerr’s best-selling book “Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs.”</figcaption>
 </figure>
 </div>
@@ -5399,7 +5399,7 @@ Note
 <p><em>OKRs <strong>do not replace</strong> other frameworks</em>. OKRs is a <strong>goal setting best practice</strong>, and goal setting is part of all planning, implementation, and improvement frameworks (Figure&nbsp;2).</p>
 <div id="fig-leanrba" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_how_it_relates_to_lean_rba_etc_v2.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_how_it_relates_to_lean_rba_etc_v2.png" class="img-fluid figure-img" style="width:60.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;2: Goal setting is core to all planning, implementation, and improvement frameworks. OKRs or Objectives and Key Results is a best practice for setting, tracking, and achieving your most important goals. OKRs was popularized by John Doerr’s best-selling book “Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs.”</figcaption>
 </figure>
 </div>
@@ -5478,7 +5478,7 @@ Note
 <p>The Figure&nbsp;3 (Table) summarizes Key Results and includes the Results-Based Accountability (RBA) framework. RBA is an epidemiologic framework that distinguishes program versus population results and is commonly used for collective impact approaches.</p>
 <div id="fig-okrstable" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_lean_rba_table_capto.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_lean_rba_table_capto.png" class="img-fluid figure-img" style="width:100.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;3: Key Results are metrics that are specific and time-bound, aggressive yet realistic, and measurable and verifiable.</figcaption>
 </figure>
 </div>
@@ -5598,14 +5598,14 @@ Send me examples of public health OKRs
   <category>Leadership</category>
   <category>Continuous improvement</category>
   <category>Objectives and Key Results</category>
-  <guid>https://drtomasaragon.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/index.html</guid>
   <pubDate>Sat, 10 Dec 2022 08:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_coursera_what-are-okrs-okr-definition-with-diagram_orig_cropped.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2022-12-10-becoming-the-best-at-getting-better/images/okrs_coursera_what-are-okrs-okr-definition-with-diagram_orig_cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Decision intelligence books</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2022-08-20-decision-intelligence-books/index.html</link>
+  <link>https://taragonmd.github.io/posts/2022-08-20-decision-intelligence-books/index.html</link>
   <description><![CDATA[ 
 
 
@@ -5613,7 +5613,7 @@ Send me examples of public health OKRs
 
 <div id="fig-decintell" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2022-08-20-decision-intelligence-books/images/tja_book_decision_intelligence_venn_V04.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2022-08-20-decision-intelligence-books/images/tja_book_decision_intelligence_venn_V04.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;1: Decision intelligence is using ethics, science, and technology to improve individual and team decisions for finding and solving problems, and achieving objectives and key results in challenging, environments, including volatile, uncertain, complex, or ambiguous (VUCA) environments.</figcaption>
 </figure>
 </div>
@@ -5717,14 +5717,14 @@ Send me examples of public health OKRs
   <category>Decision intelligence</category>
   <category>Behavioral economics</category>
   <category>Decision analysis</category>
-  <guid>https://drtomasaragon.github.io/posts/2022-08-20-decision-intelligence-books/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2022-08-20-decision-intelligence-books/index.html</guid>
   <pubDate>Sat, 20 Aug 2022 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2022-08-20-decision-intelligence-books/images/tja_book_decision_intelligence_venn_V04.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://taragonmd.github.io/posts/2022-08-20-decision-intelligence-books/images/tja_book_decision_intelligence_venn_V04.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Congratulations UC Berkeley School of Public Health Class of 2021!</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2021-05-22-congrats-ucb-sph-class-of-2021/index.html</link>
+  <link>https://taragonmd.github.io/posts/2021-05-22-congrats-ucb-sph-class-of-2021/index.html</link>
   <description><![CDATA[ 
 
 
@@ -5776,14 +5776,14 @@ Send me examples of public health OKRs
  ]]></description>
   <category>Award</category>
   <category>Graduation</category>
-  <guid>https://drtomasaragon.github.io/posts/2021-05-22-congrats-ucb-sph-class-of-2021/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2021-05-22-congrats-ucb-sph-class-of-2021/index.html</guid>
   <pubDate>Sat, 22 May 2021 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2021-05-22-congrats-ucb-sph-class-of-2021/images/feature.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://taragonmd.github.io/posts/2021-05-22-congrats-ucb-sph-class-of-2021/images/feature.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Embodying cultural humility</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2021-05-15-embodying-cultural-humility/index.html</link>
+  <link>https://taragonmd.github.io/posts/2021-05-15-embodying-cultural-humility/index.html</link>
   <description><![CDATA[ 
 
 
@@ -5799,7 +5799,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is part of the series <em><a href="https://drtomasaragon.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
+<p>This is part of the series <em><a href="https://taragonmd.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
 <p>For background, here is an <a href="https://app.box.com/s/qdkfdg6up953gin7zwj7ojtcomvu3725">overview slide set</a> and <a href="https://app.box.com/s/dy09jpugvognm8x3oz56mt379o6vygbo">lean reporting templates</a>.</p>
 </div>
 </div>
@@ -5854,14 +5854,14 @@ Note
   <category>Leadership</category>
   <category>Team skills</category>
   <category>Trust</category>
-  <guid>https://drtomasaragon.github.io/posts/2021-05-15-embodying-cultural-humility/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2021-05-15-embodying-cultural-humility/index.html</guid>
   <pubDate>Sat, 15 May 2021 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2021-05-15-embodying-cultural-humility/images/tree-hands_275x183.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://taragonmd.github.io/posts/2021-05-15-embodying-cultural-humility/images/tree-hands_275x183.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>The 8 principles for building trust (updated Nov 27 2022)</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2021-05-01-seven-principles-for-building-trust/index.html</link>
+  <link>https://taragonmd.github.io/posts/2021-05-01-seven-principles-for-building-trust/index.html</link>
   <description><![CDATA[ 
 
 
@@ -5877,7 +5877,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is part of the series <em><a href="https://drtomasaragon.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
+<p>This is part of the series <em><a href="https://taragonmd.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
 <p>For background, here is an <a href="https://app.box.com/s/qdkfdg6up953gin7zwj7ojtcomvu3725">overview slide set</a> and <a href="https://app.box.com/s/dy09jpugvognm8x3oz56mt379o6vygbo">lean reporting templates</a>.</p>
 </div>
 </div>
@@ -5964,14 +5964,14 @@ Note
   <category>Psychological safety</category>
   <category>Team skills</category>
   <category>Trust</category>
-  <guid>https://drtomasaragon.github.io/posts/2021-05-01-seven-principles-for-building-trust/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2021-05-01-seven-principles-for-building-trust/index.html</guid>
   <pubDate>Sat, 01 May 2021 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2021-05-01-seven-principles-for-building-trust/images/building-trust_525x350.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2021-05-01-seven-principles-for-building-trust/images/building-trust_525x350.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Decision intelligence: An Introduction</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/index.html</link>
+  <link>https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/index.html</link>
   <description><![CDATA[ 
 
 
@@ -5979,7 +5979,7 @@ Note
 
 <div id="fig-decintell" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/images/tja_book_decision_intelligence_venn_V04.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/images/tja_book_decision_intelligence_venn_V04.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;1: Decision intelligence is using science and technology to support teams and individuals to improve decision making for finding and solving problems, and for improving performance in novel, challenging environments, including volatile, uncertain, complex, or ambiguous (VUCA) environments.</figcaption>
 </figure>
 </div>
@@ -6009,7 +6009,7 @@ Note
 <p>Many public health officials use components of decision intelligence but are unaware of its integrated structure. Figure&nbsp;2 graphically depicts the problem-solving structure as a causal graph (also called directed acyclic graph or DAG).</p>
 <div id="fig-psolve" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/images/FIG5_Problem-Solving_causal-graph.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/images/FIG5_Problem-Solving_causal-graph.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;2: Causal graph to guide problem solving</figcaption>
 </figure>
 </div>
@@ -6021,7 +6021,7 @@ Note
 <p><strong>Decision quality</strong> is understanding and improving the requirements of making good decisions (Figure&nbsp;3) even when the decisions are intuitive, fast, or informal.</p>
 <div id="fig-dqchain" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/images/decision_quality_decisioneducation_dot_org.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/images/decision_quality_decisioneducation_dot_org.png" class="img-fluid figure-img" style="width:60.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;3: Decision quality (DQ) has six requirements. A good decision is only as strong as its weakest link.</figcaption>
 </figure>
 </div>
@@ -6077,7 +6077,7 @@ Note
 </div>
 <div id="fig-dqr" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/images/FIG4_Decision-Quality_diverg-converg2.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/images/FIG4_Decision-Quality_diverg-converg2.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;4: Decision quality requirements and work flow</figcaption>
 </figure>
 </div>
@@ -6193,7 +6193,7 @@ Note
 <p>We can now appreciate that <strong>PDSA problem-solving</strong> is a series of decisions (Figure&nbsp;5): finding and selecting the most important problems to tackle; identifying and prioritizing the consequences caused by the unresolved problem(s); identifying (or discovering) and prioritizing the root causes of the problem(s); selecting effective countermeasures for each level (problem, root causes, and consequences); and deploying and evaluating the effectiveness of the countermeasures where evaluation is a type of causal analysis.</p>
 <div id="fig-pdsa" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/images/decision-quality-divergence-convergence-triangles.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p><img src="https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/images/decision-quality-divergence-convergence-triangles.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption class="figure-caption">Figure&nbsp;5: PDSA problem solving is a series of decisions</figcaption>
 </figure>
 </div>
@@ -6239,14 +6239,14 @@ Note
   <category>Data science</category>
   <category>Behavioral economics</category>
   <category>Continuous improvement</category>
-  <guid>https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/index.html</guid>
   <pubDate>Sat, 13 Mar 2021 08:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/images/feature.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://taragonmd.github.io/posts/2021-03-13-decision-intelligence01/images/feature.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Never say never: Why I moved from local to state public health</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2021-02-20-new-cdph-job/index.html</link>
+  <link>https://taragonmd.github.io/posts/2021-02-20-new-cdph-job/index.html</link>
   <description><![CDATA[ 
 
 
@@ -6268,14 +6268,14 @@ Note
  ]]></description>
   <category>CDPH</category>
   <category>Work</category>
-  <guid>https://drtomasaragon.github.io/posts/2021-02-20-new-cdph-job/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2021-02-20-new-cdph-job/index.html</guid>
   <pubDate>Sun, 21 Feb 2021 08:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2021-02-20-new-cdph-job/images/combatimoscovid_1800x1200.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2021-02-20-new-cdph-job/images/combatimoscovid_1800x1200.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Book of Why: The new science of cause and effect</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2018-06-11-the-book-of-why/index.html</link>
+  <link>https://taragonmd.github.io/posts/2018-06-11-the-book-of-why/index.html</link>
   <description><![CDATA[ 
 
 
@@ -6288,7 +6288,7 @@ Note
 <p>By the end of this book you will understand, appreciate, and value the “Ladder of Causation” (Figure&nbsp;1)<sup>1</sup> as a way of thinking about decision making, causal reasoning, and causal discovery. You will develop a different appreciation of the important roles of epidemiology and statistics which have embraced the Causal Revolution. Be sure to get the 2020 reprint edition.<sup>2</sup></p>
 <div id="fig-ladder" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://drtomasaragon.github.io/posts/2018-06-11-the-book-of-why/images/Pearl2018_The-Book-of-Why_Ladder-of-Causation_680x950.png" class="img-fluid figure-img"></p>
+<p><img src="https://taragonmd.github.io/posts/2018-06-11-the-book-of-why/images/Pearl2018_The-Book-of-Why_Ladder-of-Causation_680x950.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Figure&nbsp;1: “The Ladder of Causation”</figcaption>
 </figure>
 </div>
@@ -6308,14 +6308,14 @@ Note
   <category>Causal inference</category>
   <category>Bayesian networks</category>
   <category>Data science</category>
-  <guid>https://drtomasaragon.github.io/posts/2018-06-11-the-book-of-why/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2018-06-11-the-book-of-why/index.html</guid>
   <pubDate>Mon, 11 Jun 2018 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2018-06-11-the-book-of-why/images/Pearl2018_The-Book-of-Why_COVER_300x200.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2018-06-11-the-book-of-why/images/Pearl2018_The-Book-of-Why_COVER_300x200.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>How emotions are made: The secret life of the brain</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2018-06-15-how-emotions-are-made/index.html</link>
+  <link>https://taragonmd.github.io/posts/2018-06-15-how-emotions-are-made/index.html</link>
   <description><![CDATA[ 
 
 
@@ -6399,14 +6399,14 @@ Note
   <category>Emotions</category>
   <category>Neuroscience</category>
   <category>Psychology</category>
-  <guid>https://drtomasaragon.github.io/posts/2018-06-15-how-emotions-are-made/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2018-06-15-how-emotions-are-made/index.html</guid>
   <pubDate>Mon, 11 Jun 2018 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2018-06-15-how-emotions-are-made/images/feature.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2018-06-15-how-emotions-are-made/images/feature.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Humility is the New Smart! Rethinking human excellence</title>
   <dc:creator>Tomás Aragón</dc:creator>
-  <link>https://drtomasaragon.github.io/posts/2017-10-22-humility-is-the-new-smart/index.html</link>
+  <link>https://taragonmd.github.io/posts/2017-10-22-humility-is-the-new-smart/index.html</link>
   <description><![CDATA[ 
 
 
@@ -6422,7 +6422,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is part of the series <em><a href="https://drtomasaragon.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
+<p>This is part of the series <em><a href="https://taragonmd.github.io/#category=The%20CDPH%20Way">The CDPH Way—Becoming the best at getting better</a></em>.</p>
 <p>For background, here is an <a href="https://app.box.com/s/qdkfdg6up953gin7zwj7ojtcomvu3725">overview slide set</a> and <a href="https://app.box.com/s/dy09jpugvognm8x3oz56mt379o6vygbo">lean reporting templates</a>.</p>
 </div>
 </div>
@@ -6719,9 +6719,9 @@ Note
   <category>Mindfulness</category>
   <category>Psychological safety</category>
   <category>Team skills</category>
-  <guid>https://drtomasaragon.github.io/posts/2017-10-22-humility-is-the-new-smart/index.html</guid>
+  <guid>https://taragonmd.github.io/posts/2017-10-22-humility-is-the-new-smart/index.html</guid>
   <pubDate>Sun, 22 Oct 2017 07:00:00 GMT</pubDate>
-  <media:content url="https://drtomasaragon.github.io/posts/2017-10-22-humility-is-the-new-smart/images/humility-book_200x133.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://taragonmd.github.io/posts/2017-10-22-humility-is-the-new-smart/images/humility-book_200x133.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
