@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tomás Aragón">
+<meta name="dcterms.date" content="2021-03-13">
+<meta name="description" content="Integrating problem solving, decision quality, performance improvement, and behavioral, data, and implementation sciences">
+
+<title>Dr.&nbsp;Tomás Aragón - Decision intelligence: An Introduction</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-111617948-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Dr.&nbsp;Tomás Aragón - Decision intelligence: An Introduction">
+<meta name="twitter:description" content="Integrating problem solving, decision quality, performance improvement, and behavioral, data, and implementation sciences">
+<meta name="twitter:image" content="https://drtomasaragon.github.io/posts/2021-03-13-decision-intelligence01/images/feature.png">
+<meta name="twitter:image-height" content="600">
+<meta name="twitter:image-width" content="900">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Dr.&nbsp;Tomás Aragón</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../works.html" rel="" target="">
+ <span class="menu-text">Works</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../subscription.html" rel="" target="">
+ <span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://threads.net/drtomasaragon" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/drtomasaragon" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/drtomasaragon" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Decision intelligence: An Introduction</h1>
+                  <div>
+        <div class="description">
+          <p>Integrating problem solving, decision quality, performance improvement, and behavioral, data, and implementation sciences</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Decision intelligence</div>
+                <div class="quarto-category">Data science</div>
+                <div class="quarto-category">Behavioral economics</div>
+                <div class="quarto-category">Continuous improvement</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://taragonmd.github.io">Tomás Aragón</a> </p>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              California Department of Public Health
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 13, 2021</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<div id="fig-decintell" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/tja_book_decision_intelligence_venn_V04.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Decision intelligence is using science and technology to support teams and individuals to improve decision making for finding and solving problems, and for improving performance in novel, challenging environments, including volatile, uncertain, complex, or ambiguous (VUCA) environments.</figcaption>
+</figure>
+</div>
+<p>In February, 2021, Bay Area health officers published an article <a href="https://journals.lww.com/jphmp/fulltext/2021/01001/crisis_decision_making_at_the_speed_of_covid_19_.5.aspx">“Crisis Decision-Making at the Speed of COVID-19: Field Report on Issuing the First Regional Shelter-in-Place Orders in the United States”</a>. In this article we discussed the application of decision intelligence (DI) to a public health crisis.</p>
+<p>In this blog entry, I briefly summarize key DI concepts. One of my goals is to clarify that “data-driven decision making” is an incomplete construct for DI.</p>
+<section id="decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="decision-making">Decision making</h2>
+<section id="causal-and-probabilistic-reasoning" class="level3">
+<h3 class="anchored" data-anchor-id="causal-and-probabilistic-reasoning">Causal and probabilistic reasoning</h3>
+<p><strong>Decision making</strong> is our most important daily activity. Decisions drive vision, strategy, execution, problem solving, performance, evaluation, and continuous improvement. Decisions can be rapid and guided by experience and intuition, or they can be the product of a slow, deliberative process, usually by teams. So, what is a decision?</p>
+<p>“A decision is a choice between two or more alternatives that involves an irrevocable allocation of resources” <span class="citation" data-cites="Howard2015_isbn978-0132336246">[<a href="#ref-Howard2015_isbn978-0132336246" role="doc-biblioref">1</a>]</span>. Every decision has <strong>causal</strong> assumptions, <strong>predictions</strong>, and opportunity costs. For example, we might choose option <span class="math inline">\(A\)</span> over option <span class="math inline">\(B\)</span> because we predict option <span class="math inline">\(A\)</span> will achieve outcome <span class="math inline">\(Y\)</span> with higher probability <span class="math inline">\(P\)</span> (often unstated). The <strong>opportunity cost</strong> is the lost benefit of the better option not chosen or not considered. Implicit (non-conscious) cognitive biases, individually and collectively, can drive the strength of our causal beliefs, predictions, and decisions. Therefore, to improve team decision making, we also need to strengthen our capabilities in causal and probabilistic reasoning, balancing trade-offs from competing objectives, and leading team deliberations in the face of volatility, uncertainty, complexity, and ambiguity (so-called VUCA).</p>
+<p>What public health officials bring to the decision-making table are the principles of epidemiology and biostatistics that support causal and probabilistic reasoning, respectfully. Causal reasoning appears in questions such as: What are the key drivers? (root causes); Why and how is this happening? (root causes); Asking “why?” 5 times. (“The 5 Whys”); Does this countermeasure work? (efficacy); Will it work in the real world? (effectiveness); and Which intervention is more cost-effective? (efficiency).</p>
+<p>Probabilistic reasoning appears in questions such as: What are the chances that this exposure leads to infection? (prediction); What are the chances this countermeasure will work? (prediction); What are the sensitivity and specificity of this test or classification? (proportion of false-negative and/or false-positive of any test result or conjecture). This type of reasoning,</p>
+<p><span class="math display">\[
+\Pr (\text{effect} \mid \text{cause})
+\]</span> <span class="math display">\[
+\Pr (\text{evidence} \mid \text{hypothesis})
+\]</span> <span class="math display">\[
+\Pr (\text{test results} \mid \text{presence of disease})
+\]</span> is called <strong>causal reasoning</strong> (or predictive reasoning).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>In contrast, What are the chances my hypothesis (conjecture, suspected diagnosis) is correct given the evidence? What is the chance of being infected given a test result? This type of reasoning,</p>
+<p><span class="math display">\[
+\Pr (\text{cause} \mid \text{effect})
+\]</span> <span class="math display">\[
+\Pr (\text{hypothesis} \mid \text{evidence})
+\]</span> <span class="math display">\[
+\Pr (\text{presence of disease} \mid \text{test results})
+\]</span></p>
+<p>is called <strong>evidential reasoning</strong> (or diagnostic reasoning) and is the inverse conditional probability of causal reasoning. Unfortunately, human beings are very poor at evidential reasoning because it requires Bayes theorem to calculate probabilities. Humans are unaware of this cognitive limitation; hence, we are overconfident in our assessments and, with confirmation bias, may develop certainty and rigid beliefs. For these reasons, <em>we must approach VUCA with genuine intellectual humility and embrace curiosity over certainty</em>. In fact, in the face of VUCA, <em>key decisions are better managed like hypotheses to be tested</em>.</p>
+<p>Every decision involves intuition, emotions, and cognitive and social psychology. Because of VUCA, decision making is often more art than science, and the “art” depends on psychological safety and effective interpersonal skills for managing conflict and building consensus. Decisions in organizational environments evolve within a historical, political, and cultural context that may constrain or support good decision making.</p>
+<p>The failure to understand basic causal and evidential reasoning leads to wrong inferences, rigid beliefs, and poor decisions. We have seen this time and time again in the SARS’CoV-2 pandemic. The only practical and effective approach is to embrace humility, curiosity, and learning.</p>
+</section>
+</section>
+<section id="decision-intelligence" class="level2">
+<h2 class="anchored" data-anchor-id="decision-intelligence">Decision intelligence</h2>
+<p>For public health officials, <strong>decision intelligence</strong> is the practical integration of problem solving, decision quality, performance improvement, and behavioral, data, and information sciences.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<section id="problem-solving" class="level3">
+<h3 class="anchored" data-anchor-id="problem-solving">Problem solving</h3>
+<p>Many public health officials use components of decision intelligence but are unaware of its integrated structure. <a href="#fig-psolve">Figure&nbsp;2</a> graphically depicts the problem-solving structure as a causal graph (also called directed acyclic graph or DAG).</p>
+<div id="fig-psolve" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/FIG5_Problem-Solving_causal-graph.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;2: Causal graph to guide problem solving</figcaption>
+</figure>
+</div>
+<p>The easiest example to understand is clinical diagnosis and treatment. When a patient presents to an emergency room with chest pain (<strong>problem</strong>), the clinician considers and prioritizes <strong>consequences</strong> (death, discomfort, etc.) and <strong>causes</strong> (myocardial infarction, esophageal reflux, anxiety, etc.), tests hypotheses by collecting data (history, physical examination, and diagnostic tests), and then uses the results to select and implement a treatment plan (<strong>countermeasures</strong>). The patient’s response to treatment is more data for learning, and for adjusting hypotheses and treatments. This whole process is a series of problem solving decisions, learning, and continuous improvement. The seasoned clinical is an expert in clinician decision intelligence.</p>
+</section>
+<section id="decision-quality" class="level3">
+<h3 class="anchored" data-anchor-id="decision-quality">Decision quality</h3>
+<p>Similarly, complex problem-solving is a series of important, causally-linked decisions to (a) select and focus on the right problem, consequences, and root causes, and (b) design, evaluate, and improve countermeasures (prevention, control, mitigation) to achieve the primary objectives while minimizing harmful outcomes and unintended consequences.</p>
+<p><strong>Decision quality</strong> is understanding and improving the requirements of making good decisions (<a href="#fig-dqchain">Figure&nbsp;3</a>) even when the decisions are intuitive, fast, or informal.</p>
+<div id="fig-dqchain" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/decision_quality_decisioneducation_dot_org.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;3: Decision quality (DQ) has six requirements. A good decision is only as strong as its weakest link.</figcaption>
+</figure>
+</div>
+<p>At a minimum, a decision quality checklist (<a href="#tbl-dqchain">Table&nbsp;1</a>) improves the quality of decisions at any stage of problem solving. A good decision is only as strong as its weakest link.</p>
+<div id="tbl-dqchain" class="anchored">
+<table class="table">
+<caption>Table&nbsp;1: Checklist: key questions to answer for decision quality (DQ)</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 84%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>No.</th>
+<th>Requirement</th>
+<th>Key question to ask</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Frame</td>
+<td>Are we clear on the problem we are solving?</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Values</td>
+<td>Have we identified what we truly want?</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Alternatives</td>
+<td>Do we have a good set of alternatives?</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Information</td>
+<td>Have we gathered the relevant information?</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Reasoning</td>
+<td>How will we evaluate alternatives to find the one that gets us the most of what what we truly want?</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Commitment</td>
+<td>Are we committed to follow through on our choice.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="fig-dqr" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/FIG4_Decision-Quality_diverg-converg2.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;4: Decision quality requirements and work flow</figcaption>
+</figure>
+</div>
+<p>Based on <a href="#fig-dqr">Figure&nbsp;4</a>, <a href="#tbl-dqr2">Table&nbsp;2</a> summarizes specific areas of professional and systems developement to improve decision quality.</p>
+<div id="tbl-dqr2" class="anchored">
+<table class="table">
+<caption>Table&nbsp;2: Decision quality requirements engages multiple disciplines and skillsets</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 13%">
+<col style="width: 81%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>No.</th>
+<th>Requirement</th>
+<th>Priority areas for development, training, and improvement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Frame</td>
+<td><span class="math inline">\(\leftarrow\)</span> <strong>decision competency</strong> in PDSA <strong>problem solving</strong></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Information</td>
+<td><span class="math inline">\(\leftarrow\)</span> <strong>data</strong>, <strong>information systems</strong>, and <strong>data science</strong></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Alternatives</td>
+<td><span class="math inline">\(\leftarrow\)</span> <strong>knowledge management</strong> (discovery, translation, and integration)</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Reasoning</td>
+<td><span class="math inline">\(\leftarrow\)</span> <strong>causal and probabilistic reasoning</strong>, <strong>deliberation</strong>, and <strong>decision science</strong></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Commitment</td>
+<td><span class="math inline">\(\leftarrow\)</span> Engage and involve <strong>stakeholders</strong> to increase commitment to action</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Values</td>
+<td><span class="math inline">\(\leftarrow\)</span> Understand the <strong>consequences</strong>, trade-offs, and opportunity costs</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Team problem solving is a series of deliberative decision processes that are divergent (generating creative ideas and options) and convergent (selecting or prioritizing options for action). First, selecting the right problem to tackle is a decision problem, and it is the most important. Second, a root cause analysis identifies what causes the problem. Third, selecting countermeasures for root causes, problem, and consequences is, again, a decision problem. The key point is that problem-solving is a series of linked, interdependent decisions, each with quality requirements. The quality of a decision can only be as strong as its weakest link, and the quality of problem solving can only be as strong as the quality of those decisions.</p>
+</section>
+<section id="performance-improvement" class="level3">
+<h3 class="anchored" data-anchor-id="performance-improvement">Performance improvement</h3>
+<p>Put together, decision intelligence is the integration of problem solving and decision quality within a <strong>performance improvement framework</strong>, ensuring quality and continuous improvement in decision making. <a href="#tbl-pdsa">Table&nbsp;3</a> summarizes decision intelligence as Plan-Do-Study-Act (PDSA) problem solving.</p>
+<div id="tbl-pdsa" class="anchored">
+<table class="table">
+<caption>Table&nbsp;3: Decision intelligence is the integration of problem solving and decision quality within a performance improvement framework</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 46%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>PDSA</th>
+<th>Components of Problem Solving</th>
+<th>Key decision questions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Plan</td>
+<td>Problem finding and definition</td>
+<td>What is main problem to solve?</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Consequence (risk) analysis</td>
+<td>What are the consequences?</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Root cause (diagnostic) analysis</td>
+<td>What causes the problem?</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Countermeasure design and testing</td>
+<td>What strategies and actions work?</td>
+</tr>
+<tr class="odd">
+<td>Do</td>
+<td>Countermeasure implementation</td>
+<td>How do we deploy countermeasures?</td>
+</tr>
+<tr class="even">
+<td>Study</td>
+<td>Countermeasure (causal) evaluation</td>
+<td>How do we measure and test effectiveness?</td>
+</tr>
+<tr class="odd">
+<td>Act</td>
+<td>Act on what you learn to improve</td>
+<td>How do we learn and improve?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>We can now appreciate that <strong>PDSA problem-solving</strong> is a series of decisions (<a href="#fig-pdsa">Figure&nbsp;5</a>): finding and selecting the most important problems to tackle; identifying and prioritizing the consequences caused by the unresolved problem(s); identifying (or discovering) and prioritizing the root causes of the problem(s); selecting effective countermeasures for each level (problem, root causes, and consequences); and deploying and evaluating the effectiveness of the countermeasures where evaluation is a type of causal analysis.</p>
+<div id="fig-pdsa" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/decision-quality-divergence-convergence-triangles.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Figure&nbsp;5: PDSA problem solving is a series of decisions</figcaption>
+</figure>
+</div>
+</section>
+<section id="behavioral-data-and-information-sciences" class="level3">
+<h3 class="anchored" data-anchor-id="behavioral-data-and-information-sciences">Behavioral, data, and information sciences</h3>
+<p>Decision intelligence starts with mastering the concepts above which can improve everyday important decisions. Without this foundation it is not possible to optimally use data and information. We often jump to building flashy data dashboards for making “data-driven” decisions without checking if we are solving the right problem or if we have good decision processes to begin with.</p>
+<p>Finally, decisions involve people and actions. So we must understand basic behavioral sciences, especially behavioral economics.</p>
+<p>I will cover these topics in future blog updates.</p>
+</section>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Decision intelligence is integration of</p>
+<ul>
+<li>problem solving,</li>
+<li>decision quality,</li>
+<li>continuous improvement, and</li>
+<li>behavioral, data, and implementation sciences<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+</ul>
+<p>Decision intelligence<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> is often promoted through the lens of data science, machine learning, and artificial intelligence. The link is through human sensory input and processing of data and “information” in <a href="#tbl-dqr2">Table&nbsp;2</a>. However, I believe decision intelligence concepts are applicable for everyday use, and therefore much more generalizable and powerful.</p>
+<p>In future blog entries I will expand on these concepts with more emphasis on practical applications and data science.</p>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-Howard2015_isbn978-0132336246" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Howard RA, Abbas AE. Foundations of decision analysis. 1st ed. Pearson; 2015. </div>
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>I prefer causal reasoning: a causal link has statistical dependence but statistical dependence (an association) does not mean there is a causal link<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Behavioral economics had made large contributions to our understanding of the influences of non-conscious biases on every day decisions.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Behavioral economics had made large contributions to our understanding of the influences of non-conscious biases on every day decisions.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>See <a href="https://towardsdatascience.com/introduction-to-decision-intelligence-5d147ddab767" class="uri">https://towardsdatascience.com/introduction-to-decision-intelligence-5d147ddab767</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Created with <a href="https://quarto.org">Quarto.org</a>—an open-source scientific and technical publishing system built on <a href="https://pandoc.org/">Pandoc</a>.</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
